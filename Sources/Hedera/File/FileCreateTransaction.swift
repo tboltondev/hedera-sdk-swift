@@ -23,7 +23,7 @@ import GRPC
 import HederaProtobufs
 
 /// Create a new file, containing the given contents.
-public final class FileCreateTransaction: Transaction {
+public final class FileCreateTransaction: FileTransactionBase {
     /// Create a new `FileCreateTransaction` ready for configuration.
     public override init() {
         super.init()
